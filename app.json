@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "whatloanapp",
+    "description": "An empty new project",
+    "slug": "whatloanapp",
+    "privacy": "public",
+    "sdkVersion": "19.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icons/app-icon.png",
+    "loading": {
+      "icon": "./assets/icons/app-icon.png",
+      "hideExponentText": false
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "otf",
+        "mp4"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.prolificrew.Whatloan"
+    },
+    "android": {
+      "package": "com.prolificrew.Whatloan"
+    }
+  }
+}
